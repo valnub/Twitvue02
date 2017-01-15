@@ -6,7 +6,7 @@ var twitter = {};
 var cb = new Codebird;
 twitter.cb = cb;
 
-// ADD YOUR KEYS HERE!
+// ADD YOUR KEYS HERE! If you have none, go to https://apps.twitter.com and generate them!
 cb.setConsumerKey("YOUR_OAUTH_TOKEN", "YOUR_OAUTH_SECRET");
 
 var oauth_token = QueryString.oauth_token;
