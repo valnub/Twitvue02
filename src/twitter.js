@@ -6,7 +6,8 @@ var twitter = {};
 var cb = new Codebird;
 twitter.cb = cb;
 
-cb.setConsumerKey("QE8A4MhgNkOfp8gBwN8QzmKrZ", "giUNmNBPnUeMSIObnq73XgJ9bFQoXG4PTSL3TJiXxzeIaITUqC");
+// ADD YOUR KEYS HERE!
+cb.setConsumerKey("YOUR_OAUTH_TOKEN", "YOUR_OAUTH_SECRET");
 
 var oauth_token = QueryString.oauth_token;
 var oauth_verifier = QueryString.oauth_verifier;
